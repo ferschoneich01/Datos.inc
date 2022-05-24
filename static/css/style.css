@@ -1,0 +1,20 @@
+body{
+    color: aliceblue;
+    background-color: #0A2640;
+}
+
+.navbar{
+    color: aliceblue;
+    background-color: #0A2640;
+}
+
+.btn-singIn{
+    background-color: aliceblue;
+    color: black;
+    border-radius: 20px;
+}
+
+.logo-text{
+    color: aliceblue;
+    margin-left: 5px;
+}
