@@ -6,15 +6,93 @@ body{
 .navbar{
     color: aliceblue;
     background-color: #0A2640;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 .btn-singIn{
     background-color: aliceblue;
     color: black;
-    border-radius: 20px;
+    border-radius: 25px;
+    margin-left: 5px;
+    padding-right: 12px;
+    padding-left: 12px;
 }
 
 .logo-text{
     color: aliceblue;
     margin-left: 5px;
+    font-size: 25px;
+    margin-left: 10px;
+    margin-top: 3px;
+}
+
+.nav-link{
+    color: antiquewhite;
+}
+
+.col2{
+    margin-left: 40%;
+}
+
+
+/*SECCION 1*/
+
+.seccion-1{
+    margin-top: 60px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-bottom: 50px;
+}
+
+.col1-sec1{
+    padding-top: 5px;
+    padding-left: 40px;
+}
+
+.btn-verplanes{
+    color: rgb(0, 0, 0);
+    border-radius: 25px;
+    margin-left: 5px;
+    padding-right: 12px;
+    padding-left: 12px;
+    background-color: #65E4A3;
+ 
+}
+
+.titlesec1{
+    font-size: 2.8rem;
+}
+
+.descriptionsec1{
+    font-size: 22px;
+    margin-bottom: 40px;
+}
+
+.seccion-1 a{
+    width: 180px;
+    height: 50px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+/*SECCION 2*/
+.seccion-2{
+    background-color: aliceblue;
+    color: #0A2640;
+    padding: 50px;
+}
+
+
+
+
+
+
+/*RESPONSIVE*/
+@media (max-width: 500px){
+    .logo-text{
+        font-size:15px;
+
+    }
 }
