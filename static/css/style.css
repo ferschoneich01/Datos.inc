@@ -77,6 +77,11 @@ body{
     padding-top: 10px;
 }
 
+.col2-sec1 img{
+    border-radius: 20px;
+    margin:5px;
+}
+
 /*SECCION 2*/
 .seccion-2{
     background-color: aliceblue;
@@ -84,10 +89,46 @@ body{
     padding: 50px;
 }
 
+/*LOGIN*/
+.login{
+    margin: 5px;
+}
 
+.login h3{
+    color: #0A2640;
+    text-align: center;
+}
 
+.login input{
+    border-radius: 5px;
+    border: 1px solid rgb(87, 84, 84);
+    margin: 5px;
+    width: 400px;
+    
+    
+}
 
+.login button{
+    width: 200px;
+    transform: translateX(120px);
+    border-radius: 20px;
+    background-color: #0A2640;
+    color: aliceblue;
+}
 
+.login button:hover{
+    background-color: transparent;
+    color: #0A2640;
+}
+
+.modal-body{
+    width: 300px;
+    height: 450px;
+}
+
+.modal-body form{
+    justify-items: center;
+}
 
 /*RESPONSIVE*/
 @media (max-width: 500px){

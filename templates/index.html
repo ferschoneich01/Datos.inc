@@ -25,7 +25,7 @@
                                 fill="#65E4A3" />
                         </svg>
                     </div>
-                    
+
                     <div class="col">
                         <h1 class="logo-text">Datos.Inc</h1>
                     </div>
@@ -44,7 +44,8 @@
                             <a id="btnNosotros" class="nav-link" href="#nosotros">Nosotros</a>
                         </li>
                         <li class="nav-item">
-                            <a id="btnIniciarSesion" class="btn btn-singIn" href="#">Iniciar sesion</a>
+                            <a id="btnIniciarSesion" class="btn btn-singIn" href="#" data-bs-toggle="modal"
+                                data-bs-target="#staticBackdrop">Iniciar sesion</a>
                         </li>
 
                     </ul>
@@ -66,16 +67,17 @@
         <section class="seccion-1 row">
             <article class="col col1-sec1">
                 <p class="titlesec1">Inteligencia de Negocios para tu empresa ó proyecto</p>
-                <p class="descriptionsec1">“Poder predecir el comportamiento de un cliente, del mercado, de un fraude, de un gasto y tomar
+                <p class="descriptionsec1">“Poder predecir el comportamiento de un cliente, del mercado, de un fraude,
+                    de un gasto y tomar
                     acciones correctivas, puede salvar los resultados de una organización”</p>
                 <a href="#planes" class="btn btn-verplanes">Ver Planes</a>
                 <a href="#explorar" class="btn btn-singIn">Explorar</a>
             </article>
             <article class="col col2-sec1">
                 <div>
-                    <img src="../static/assets/panel1.png" alt="" style="border-radius: 20px; width: 520px; margin: 5px;">
-                    <img src="../static/assets/panel2.png" alt="" style="border-radius: 20px; width: 290px; margin: 5px;">
-                    <img src="../static/assets/panel3.png" alt="" style="border-radius: 20px; width: 215px; margin: 5px;">
+                    <img src="../static/assets/panel1.png" alt="" style="width: 520px;">
+                    <img src="../static/assets/panel2.png" alt="" style="width: 290px;">
+                    <img src="../static/assets/panel3.png" alt="" style="width: 215px;">
                 </div>
             </article>
         </section>
@@ -119,7 +121,29 @@
                 de hoy hablaremos de en que consiste un negocio inteligente y cómo puede ayudar para una mejor gestión.
             </p>
         </section>
+
+        <!-- Modal -->
+        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+            aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form action="post" class="form login">
+                            <h3>Iniciar sesion</h3>
+                            <input class="form-control" type="text" placeholder="kenzi.lawson@example.com">
+                            <input class="form-control" type="password" placeholder="********">
+                            <button type="submit" class="btn">Iniciar sesion</button>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </div>
     </main>
+
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
         integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
         crossorigin="anonymous"></script>
