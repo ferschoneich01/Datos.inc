@@ -70,7 +70,8 @@
                 <p class="descriptionsec1">“Poder predecir el comportamiento de un cliente, del mercado, de un fraude,
                     de un gasto y tomar
                     acciones correctivas, puede salvar los resultados de una organización”</p>
-                <a href="#planes" class="btn btn-verplanes">Ver Planes</a>
+                    <a href="#" class="btn btn-verplanes" data-bs-toggle="modal"
+                    data-bs-target="#obtener">Obtener</a>
                 <a href="#explorar" class="btn btn-singIn">Explorar</a>
             </article>
             <article class="col col2-sec1">
@@ -81,6 +82,7 @@
                 </div>
             </article>
         </section>
+
         <section class="seccion-2">
             <h6>Publicado por Julio Castro: julio 9, 2021 </h6>
             <h2>
@@ -122,7 +124,7 @@
             </p>
         </section>
 
-        <!-- Modal -->
+        <!-- Inicio de sesion-->
         <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
             aria-labelledby="staticBackdropLabel" aria-hidden="true">
             <div class="modal-dialog">
@@ -132,11 +134,30 @@
                     </div>
                     <div class="modal-body">
                         <form action="post" class="form login">
-                            <h3>Iniciar sesion</h3>
+                            <h2>Iniciar sesion</h2>
                             <input class="form-control" type="text" placeholder="kenzi.lawson@example.com">
                             <input class="form-control" type="password" placeholder="********">
-                            <button type="submit" class="btn">Iniciar sesion</button>
+                            <a href="#">¿Aun no tienes una cuenta?</a>
+                            <button type="submit" class="btn" style="width: 100%;">Iniciar sesion</button>
                         </form>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- Obtener -->
+        <div class="modal fade" id="obtener" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+            aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p style="color: black;">La exploración de datos y el descubrimiento sin límites empiezan ahora.</p>
+                        <h2 style="color: black;">Comience su prueba gratuita de Datos.Inc</h2>
+                        <a href="#" class="btn btn-verplanes">Comenzar prueba gratis</a>
                     </div>
 
                 </div>

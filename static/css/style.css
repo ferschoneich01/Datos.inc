@@ -3,6 +3,8 @@ body{
     background-color: #0A2640;
 }
 
+
+
 .navbar{
     color: aliceblue;
     background-color: #0A2640;
@@ -44,12 +46,15 @@ body{
     margin-left: 50px;
     margin-right: 50px;
     padding-bottom: 50px;
+    
 }
 
 .col1-sec1{
     padding-top: 5px;
     padding-left: 40px;
+    
 }
+
 
 .btn-verplanes{
     color: rgb(0, 0, 0);
@@ -83,10 +88,12 @@ body{
 }
 
 /*SECCION 2*/
+
 .seccion-2{
     background-color: aliceblue;
     color: #0A2640;
     padding: 50px;
+    text-align: center;
 }
 
 /*LOGIN*/
@@ -94,17 +101,22 @@ body{
     margin: 5px;
 }
 
-.login h3{
+.login a{
+    margin: 5px;
+}
+
+.login h2{
     color: #0A2640;
     text-align: center;
+    margin-bottom: 20px;
 }
 
 .login input{
     border-radius: 5px;
     border: 1px solid rgb(87, 84, 84);
-    margin: 5px;
+    margin-bottom: 20px;
     width: 400px;
-    
+    margin-left: 25px;
     
 }
 
@@ -129,6 +141,8 @@ body{
 .modal-body form{
     justify-items: center;
 }
+
+
 
 /*RESPONSIVE*/
 @media (max-width: 500px){
