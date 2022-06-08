@@ -114,18 +114,15 @@ body{
 .login input{
     border-radius: 5px;
     border: 1px solid rgb(87, 84, 84);
-    margin-bottom: 20px;
-    width: 400px;
+    margin-bottom: 10px;
+    width: 80%;
     margin-left: 25px;
     
 }
 
-.login button{
-    width: 200px;
-    transform: translateX(120px);
+.login a{
+    width: 80%;
     border-radius: 20px;
-    background-color: #0A2640;
-    color: aliceblue;
 }
 
 .login button:hover{
@@ -142,8 +139,100 @@ body{
     justify-items: center;
 }
 
+.logo-google{
+    width: 20px;
+}
 
+.btn-google{
+    background-color: aliceblue;
+    color: #0A2640;
+    border: 1px solid #0A2640;
+}
 
+.btn-google:hover{
+    background-color: #0A2640;
+    color: aliceblue;
+}
+
+.btn-singIn-login{
+    background-color: #0A2640;
+    color: #ffffff;
+    border: 1px solid #0A2640;
+}
+
+.modal{
+    position: absolute;
+    width: 380px;
+    transform: translateX(140%);
+}
+
+.modal-dialog{
+    width: 100%;
+}
+
+.modal-content{
+    width: 100%;
+}
+
+.modal-body{
+    width: 380px;
+}
+
+.login hr{
+    border: 1px solid rgb(67, 67, 67);
+}
+
+.login-links{
+    text-decoration: none;
+    color: #0A2640;
+}
+
+.modalreg{
+    height: 500px;
+}
+
+.seccion-2 p{
+    transform: translateX(50%);
+    width: 600px;
+}
+
+.seccion-3 p{
+    font-size: large;
+    transform: translateX(30%);
+    width: 700px;
+}
+
+.seccion-3{
+    text-align: center;
+}
+
+.panel1-sect2{
+    border-radius: 20px;
+    width: 500px;
+}
+
+.text1-sect2 p{
+    width: 400px;
+    float: left;
+    margin-left: 0;
+    margin-top: 50px;
+    transform: translateX(50px);
+    font-size: large;
+}
+
+.btn-obtener{
+    background-color: #65E4A3;
+    color: #0A2640;
+    width: 40%;
+    border-radius: 20px;
+    margin-left: 20px;
+}
+
+.btn-obtener:hover{
+    background-color: #0A2640;
+    color: #ffffff;
+
+}
 /*RESPONSIVE*/
 @media (max-width: 500px){
     .logo-text{
