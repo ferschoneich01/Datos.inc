@@ -1,11 +1,11 @@
-body{
+body {
     color: aliceblue;
     background-color: #0A2640;
 }
 
 
 
-.navbar{
+.navbar {
     color: aliceblue;
     background-color: #0A2640;
     margin-top: 20px;
@@ -13,7 +13,7 @@ body{
     margin-right: 50px;
 }
 
-.btn-singIn{
+.btn-singIn {
     background-color: aliceblue;
     color: black;
     border-radius: 25px;
@@ -22,7 +22,7 @@ body{
     padding-left: 12px;
 }
 
-.logo-text{
+.logo-text {
     color: aliceblue;
     margin-left: 5px;
     font-size: 25px;
@@ -30,66 +30,71 @@ body{
     margin-top: 3px;
 }
 
-.nav-link{
+.nav-link {
     color: antiquewhite;
 }
 
-.col2{
+.col2 {
     margin-left: 40%;
 }
 
 
 /*SECCION 1*/
 
-.seccion-1{
+.seccion-1 {
     margin-top: 60px;
     margin-left: 50px;
     margin-right: 50px;
     padding-bottom: 50px;
-    
+
 }
 
-.col1-sec1{
+.col-1 svg {
+    width: 40px;
+    height: 40px;
+}
+
+.col1-sec1 {
     padding-top: 5px;
     padding-left: 40px;
-    
+
 }
 
 
-.btn-verplanes{
+.btn-verplanes {
     color: rgb(0, 0, 0);
     border-radius: 25px;
     margin-left: 5px;
     padding-right: 12px;
     padding-left: 12px;
     background-color: #65E4A3;
- 
+
 }
 
-.titlesec1{
+.titlesec1 {
     font-size: 2.8rem;
 }
 
-.descriptionsec1{
+.descriptionsec1 {
     font-size: 22px;
     margin-bottom: 40px;
 }
 
-.seccion-1 a{
+.seccion-1 a {
     width: 180px;
     height: 50px;
     text-align: center;
     padding-top: 10px;
 }
 
-.col2-sec1 img{
+.col2-sec1 img {
     border-radius: 20px;
-    margin:5px;
+    margin: 5px;
 }
 
 /*SECCION 2*/
 
-.seccion-2{
+.seccion-2 {
     background-color: aliceblue;
     color: #0A2640;
     padding: 50px;
@@ -97,130 +102,135 @@ body{
 }
 
 /*LOGIN*/
-.login{
+.login {
     margin: 5px;
 }
 
-.login a{
+.login a {
     margin: 5px;
 }
 
-.login h2{
+.login h2 {
     color: #0A2640;
     text-align: center;
     margin-bottom: 20px;
 }
 
-.login input{
+.login input {
     border-radius: 5px;
     border: 1px solid rgb(87, 84, 84);
     margin-bottom: 10px;
     width: 80%;
     margin-left: 25px;
-    
+
 }
 
-.login a{
+.login a {
     width: 80%;
     border-radius: 20px;
 }
 
-.login button:hover{
+.login button:hover {
     background-color: transparent;
     color: #0A2640;
 }
 
-.modal-body{
+.modal-body {
     width: 300px;
     height: 450px;
 }
 
-.modal-body form{
+.modal-body form {
     justify-items: center;
 }
 
-.logo-google{
+.logo-google {
     width: 20px;
 }
 
-.btn-google{
+.btn-google {
     background-color: aliceblue;
     color: #0A2640;
     border: 1px solid #0A2640;
 }
 
-.btn-google:hover{
+.btn-google:hover {
     background-color: #0A2640;
     color: aliceblue;
 }
 
-.btn-singIn-login{
+.btn-singIn-login {
     background-color: #0A2640;
     color: #ffffff;
     border: 1px solid #0A2640;
 }
 
-.modal{
+.modal {
     position: absolute;
     width: 380px;
     transform: translateX(140%);
 }
 
-.modal-dialog{
+.modal-dialog {
     width: 100%;
 }
 
-.modal-content{
+.modal-content {
     width: 100%;
 }
 
-.modal-body{
+.modal-body {
     width: 380px;
 }
 
-.login hr{
+.login hr {
     border: 1px solid rgb(67, 67, 67);
 }
 
-.login-links{
+.login-links {
     text-decoration: none;
     color: #0A2640;
 }
 
-.modalreg{
+.modalreg {
     height: 500px;
 }
 
-.seccion-2 p{
+.seccion-2 p {
     transform: translateX(50%);
     width: 600px;
 }
 
-.seccion-3 p{
+.seccion-3 p {
     font-size: large;
-    transform: translateX(30%);
-    width: 700px;
 }
 
-.seccion-3{
+.seccion-3 {
     text-align: center;
 }
 
-.panel1-sect2{
+.panel1-sect2 {
     border-radius: 20px;
     width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.text1-sect2 p{
-    width: 400px;
-    float: left;
-    margin-left: 0;
-    margin-top: 50px;
-    transform: translateX(50px);
+.text1-sect2 {
     font-size: large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.btn-obtener{
+.text1-sect2 p {
+    margin-top: 50px;
+    width: 420px;
+
+}
+
+.btn-obtener {
     background-color: #65E4A3;
     color: #0A2640;
     width: 40%;
@@ -228,15 +238,116 @@ body{
     margin-left: 20px;
 }
 
-.btn-obtener:hover{
+.btn-obtener:hover {
     background-color: #0A2640;
     color: #ffffff;
 
 }
-/*RESPONSIVE*/
-@media (max-width: 500px){
-    .logo-text{
-        font-size:15px;
 
+.content-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-img-sect2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*RESPONSIVE*/
+@media (max-width: 500px) {
+    .logo-text {
+        margin-top: 3px;
+        font-size: 25px;
+    }
+
+    .panel1-sect2 {
+        margin-top: 10px;
+        width: 400px;
+    }
+
+    .titlesec1 {
+        font-size: 35px;
+    }
+
+    .descriptionsec1 {
+        justify-content: left;
+        font-size: 18px;
+    }
+
+    .col-1 {
+        padding-top: 3px;
+    }
+
+    .col-1 svg {
+        width: 30px;
+        height: 30px;
+    }
+
+    .row-navbar {
+        width: 300px;
+    }
+
+    .navbar-toggler-icono svg {
+        width: 27px;
+        height: 27px;
+        fill: #ffffff;
+    }
+
+    .navbar-toggler {
+        border-color: transparent;
+    }
+
+    .navbar-toggler:focus {
+        transform: rotate(90deg);
+    }
+
+    .col2-sec1 img {
+        width: 0px;
+        height: 0px;
+        margin: 0;
+    }
+
+    .col1-sec1 a {
+        margin: 2px;
+        width: 130px;
+    }
+
+    .col1-sec1{
+        width: 400px;
+    }
+
+    .col2-sec1{
+        position: absolute;
+        width: 0px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .navbar-collapse{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .col2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0;
+    }
+
+    .navbar-nav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .seccion-2 p{
+        margin-top: 20px;
+        transform: translateX(0%);
+        width: 100%;
     }
 }
