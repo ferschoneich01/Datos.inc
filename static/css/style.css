@@ -35,7 +35,7 @@ body {
 }
 
 .col2 {
-    margin-left: 40%;
+    margin-left: 28%;
 }
 
 
@@ -103,32 +103,23 @@ body {
 
 /*LOGIN*/
 .login {
-    margin: 5px;
-}
-
-.login a {
-    margin: 5px;
+    padding: 8px;
 }
 
 .login h2 {
     color: #0A2640;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .login input {
-    border-radius: 5px;
-    border: 1px solid rgb(87, 84, 84);
-    margin-bottom: 10px;
-    width: 80%;
-    margin-left: 25px;
-
-}
-
-.login a {
-    width: 80%;
+    margin: 0 auto;
     border-radius: 20px;
+    border: 1px solid rgb(87, 84, 84);
+    width: 100%;
+    margin-top: 20px;
 }
+
 
 .login button:hover {
     background-color: transparent;
@@ -136,14 +127,8 @@ body {
 }
 
 .modal-body {
-    width: 300px;
-    height: 450px;
+    padding: 10px;
 }
-
-.modal-body form {
-    justify-items: center;
-}
-
 .logo-google {
     width: 20px;
 }
@@ -152,6 +137,9 @@ body {
     background-color: aliceblue;
     color: #0A2640;
     border: 1px solid #0A2640;
+    border-radius: 20px;
+    width: 100%;
+    margin: 0 auto;
 }
 
 .btn-google:hover {
@@ -163,38 +151,29 @@ body {
     background-color: #0A2640;
     color: #ffffff;
     border: 1px solid #0A2640;
-}
-
-.modal {
-    position: absolute;
-    width: 380px;
-    transform: translateX(140%);
-}
-
-.modal-dialog {
+    border-radius: 20px;
+    margin: 0 auto;
     width: 100%;
+    margin-top: 10px;
 }
 
-.modal-content {
-    width: 100%;
-}
-
-.modal-body {
-    width: 380px;
+.btn-singIn-login:hover{
+    background-color: transparent;
+    color: #0A2640;
 }
 
 .login hr {
     border: 1px solid rgb(67, 67, 67);
+    margin-bottom: 20px;
 }
 
 .login-links {
+    margin: 0 auto;
+    margin-top:10px;
     text-decoration: none;
     color: #0A2640;
 }
 
-.modalreg {
-    height: 500px;
-}
 
 .seccion-2 p {
     transform: translateX(50%);
@@ -387,6 +366,24 @@ body {
     font-size: large;
     padding: 8px;
     width: 70%; 
+}
+
+.content-planes .row{
+    width: 100%;
+}
+.content-planes img{
+    height: 100%;
+    width: 100%;
+}
+.content-title-planes{
+    text-align: center;
+    color: #000000;
+}
+
+.content-planes a{
+    color: #ffffff;
+    transform: translateY(320px) translateX(-150px);
+    position:fixed;
 }
 /*RESPONSIVE*/
 @media (max-width: 500px) {
